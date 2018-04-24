@@ -7,5 +7,5 @@
 - name: Configure ntp file
   template: src=ntp.conf.j2 dest=/etc/ntp.conf
 
-- name: Start the ntp service
-  service: name=ntpdate state=started enabled=yes
+#- name: Start the ntp service
+#  service: name=ntpdate state=started enabled=yes
